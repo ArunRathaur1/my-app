@@ -1,12 +1,12 @@
-import Fun from './components/nevbar.js';
-import Form from './components/form.js';
+import NevBar from './components/nevbar.js';
 import Footer from './components/footer.js';
-import TextConver from './components/textconverter.js';
-import TextConveter2 from './components/textconver2.js';
+import Texting from './components/TextConvrting.js';
 function App() {
   return (
     <>
-      <TextConveter2></TextConveter2>
+      <NevBar></NevBar>
+      <Texting></Texting>
+      <Footer></Footer>
     </>
     
 );
