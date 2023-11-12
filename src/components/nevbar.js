@@ -1,5 +1,8 @@
 import React from "react";
+
 function NevBar(prop){
+  let y=document.getElementsByClassName("btn btn-outline-success")[0];
+ 
     return(
         <>
        <nav className="navbar navbar-expand-lg bg-body-tertiary-dark">
@@ -38,7 +41,7 @@ function NevBar(prop){
     </div>
   </div>
 </nav>
-        
+
         </>
     )
 }

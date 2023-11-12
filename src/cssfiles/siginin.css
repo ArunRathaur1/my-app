@@ -1,0 +1,122 @@
+.body{
+    height:25cm;
+    background-color: rgb(43, 43, 43);
+}
+div[class="row1"]{
+    font-size: large;
+    font-family: 'Times New Roman';
+    padding:20px;
+    
+}
+
+button{
+    width:4cm;
+    height:1cm;
+    font-size: large;
+    margin-right: 20px;
+    border-radius: 5px;
+    border:none;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+button:hover{
+    background-color: rgb(1, 1, 112);
+    color:white;
+}
+button:active{
+    background-color:rgb(1, 1, 60);
+}
+div[class="box"]{
+   background-color: rgba(20, 20, 20);
+    width:80%;
+    margin:auto;
+    color: white;
+    padding:1cm;
+    font-size:larger;
+    border-radius: 10px;
+    position: relative;
+    top:2cm;
+}
+p[class="heading"]{
+    font-size: 30px;
+    text-decoration: underline;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    color:rgb(59, 59, 255);
+}
+@media (min-width:700px) {
+    div[class="box"]{
+         width:50%;
+     }
+     .logoimage{
+        margin-top:20px ;
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+       }
+
+}
+@media (max-width:700px){
+   .body{
+    height:25cm;
+   }
+   .logoimage{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+   }
+}
+@media (min-width:1000px) {
+    div[class="box"]{
+         width:30%;
+        margin-left: 60%;
+     }
+     .body{
+        height: 15cm;
+     }
+     .logoimage{
+        position: absolute;
+        top:200px;
+        left:100px;
+    }
+}
+input[type="email"],input[type="password"]{
+    width:100%;
+    height:1cm;
+    border-radius: 5px;
+    outline:none;
+    border:none;
+    background-color: rgba(20, 20, 20);
+    color: azure;
+}
+hr[class="line"]{
+    position: relative;
+    bottom:20px;
+}
+p[class="lastline"]{
+    font-size: 16px;
+}
+div[class="row2"]{
+    background-size: cover;
+    background-attachment: fixed;
+    height:20cm;
+    border:solid;
+}
+span{
+    text-decoration: underline;
+    color:rgb(144, 160, 238);
+
+}
+span:hover{
+    color:rgb(3, 24, 126);
+}
+span:active{
+    color:rgb(255, 255, 255);
+}

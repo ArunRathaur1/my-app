@@ -1,12 +1,12 @@
 import NevBar from './components/nevbar.js';
 import Footer from './components/footer.js';
-import Texting from './components/TextConvrting.js';
+import Sigin from './components/sigin.js';
+
 function App() {
   return (
     <>
       <NevBar></NevBar>
-      <Texting></Texting>
-      <Footer></Footer>
+      <Sigin></Sigin>
     </>
     
 );
