@@ -1,19 +1,20 @@
 import React from 'react';
 import '../cssfiles/siginin.css';
+
 function Sigin(){
   return(
     <>
         <div className='body'>
             
             <div className="row2">
-            <img src={require('../images/logo.png')} className='logoimage'/>
+            <img src={require('../images/logo.png')} alt="" className='logoimage'/>
                 <div className="box">
                     <p className="heading">Sign In</p>
                     <p className="subheading">Email</p>
                     
                     <p><input type="email" placeholder="Email"/></p>
                     <hr className="line"/>
-                    <p className="subheading">password</p>
+                    <p className="subheading">Password</p>
                     <p><input type="password" placeholder="password"/></p>
                     <hr className="line"/>
                     <p><button>Submit</button></p>
