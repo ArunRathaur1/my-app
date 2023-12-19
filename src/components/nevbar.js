@@ -1,12 +1,13 @@
 import React from "react";
-
+import Variablemode from "./variablemode";
 function NevBar(prop){
   let y=document.getElementsByClassName("btn btn-outline-success")[0];
- 
+
     return(
         <>
-       <nav className="navbar navbar-expand-lg bg-body-tertiary-dark">
+       <nav className="navbar navbar-expand-lg bg-body-tertiary-dark" style={prop.bluemode}>
   <div className="container-fluid">
+  <Variablemode bluemode={prop.bluemode} changebtn2={prop.changebtn2}></Variablemode>
     <a className="navbar-brand" href="/">Navbar</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="/navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
@@ -33,6 +34,7 @@ function NevBar(prop){
         <li className="nav-item">
           <a className="nav-link disabled" aria-disabled="true" href="/">Disabled</a>
         </li>
+        
       </ul>
       <form className="d-flex" role="search">
         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
